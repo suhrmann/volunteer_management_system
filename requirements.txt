@@ -1,5 +1,5 @@
 autopep8==1.5
-#codecov==2.1.8
+codecov~=2.1.8
 coverage==5.2
 coveralls==2.1.1
 Django==2.0
@@ -15,7 +15,7 @@ mccabe==0.6.1
 phonenumbers==8.11.5
 Pillow==7.0.0
 progressbar2==3.50.0
-psycopg2==2.8.4
+#psycopg2==2.8.4
 psycopg2-binary==2.8.4
 pycodestyle==2.6.0
 pyflakes==2.2.0
