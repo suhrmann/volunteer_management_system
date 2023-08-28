@@ -30,6 +30,17 @@ framework and [Python](https://www.python.org/).
 
 To get started, read the [Installation Guide](aut_docs/Installation_Setup.md).
 
+Run in Development
+------------------
+
+1. Create database
+    ```sh
+    sh docker compose up db adminer
+    ```
+2. Config: copy `.env.example` to `.env`
+3. Migrate and populate database: Simply use `setup_server.sh`
+4. Start Server: `run_server.sh` or `python manage.py runserver`
+    
 
 Run VMS in a Docker Container
 -----------------------------
