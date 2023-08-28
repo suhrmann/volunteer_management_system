@@ -2,14 +2,14 @@
 
 The QA process is divided as follows:
 
-- Continuous Integration: Used travis to setup CI for VMS Project
+- Continuous Integration: Used GitHub Actions to setup CI for VMS Project
 - Functional Testing: Used Selenium to write UI tests from an end-users perspective.(black-box tests)
 - Unit Testing: Unit-tests have been written for services in the codebase.(white-box tests)
 
 ## Few important points regarding CI:
 
-- `.travis.yml` is the config file to run the travis build
-- Build can be viewed at `https://travis-ci.org/systers/vms`
+- `.github/workflows/` is the directory to run the GitHub Actions
+- Build can be viewed at `https://github.com/anitab-org/vms/actions`
 - Status would be reflected in the badge in `README.md`
 
 ## Few important points regarding Functional Testing:

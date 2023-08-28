@@ -1,4 +1,4 @@
-There are a few tests which have been commented out currently to avoid Travis CI build failure:
+There are a few tests which have been commented out currently to avoid CI build failure:
 
 | File                         | App/Model         | Test name                                                           | Reason/Related issue                              |
 |:----------------------------:|:-----------------:|:-------------------------------------------------------------------:|:-------------------------------------------------:|
