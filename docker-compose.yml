@@ -1,13 +1,6 @@
 version: "3.9"
 
 services:
-  db:
-    image: postgres:9.6.3
-    environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-
   web:
     build: .
     command: python vms/manage.py runserver 0.0.0.0:8000
@@ -19,3 +12,16 @@ services:
       - db
     environment:
       - DJANGO_SETTINGS_MODULE=vms.settings
+
+  db:
+    image: postgres:9.6.3
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
