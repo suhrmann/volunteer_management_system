@@ -21,6 +21,9 @@ The VMS is developed in phases. The initial implementation tracks
 volunteers' contact information, enables administrators to track volunteer
 hours, and allows reporting of useful information.
 
+Documentation
+=============
+ALL documentation moved to GitHub project wiki: https://github.com/suhrmann/volunteer_management_system/wiki
 
 Installation
 ------------
@@ -28,7 +31,7 @@ Installation
 The VMS project uses the [Django](https://www.djangoproject.com/) web
 framework and [Python](https://www.python.org/).
 
-To get started, read the [Installation Guide](aut_docs/Installation_Setup.md).
+To get started, read the [Installation Guide](https://github.com/suhrmann/volunteer_management_system/wiki/Installation_Setup).
 
 Run in Development
 ------------------
@@ -39,8 +42,9 @@ Run in Development
     ```
 2. Config: copy `.env.example` to `.env`
 3. Migrate and populate database: Simply use `setup_server.sh`
-4. Start Server: `run_server.sh` or `python manage.py runserver`
-    
+4. Start Server: `run_server.sh` or `python manage.py runserver` 
+    **Note: This project is built against Python 3.6!**
+
 
 Run VMS in a Docker Container
 -----------------------------
