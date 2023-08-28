@@ -1,6 +1,8 @@
 Volunteer Management System(VMS)
 =============================
 
+**🚀 Credits to the original project: [vms by AnitaB.org Open Source](https://github.com/anitab-org/vms)**
+
 [![Build Status](https://img.shields.io/travis/anitab-org/vms/develop?logo=travis)](https://travis-ci.org/anitab-org/vms)
 [![Coverage Status](https://coveralls.io/repos/github/anitab-org/vms/badge.svg)](https://coveralls.io/github/anitab-org/vms?branch=develop) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
@@ -13,11 +15,7 @@ our vision and projects. The **Volunteer Management System** (VMS) will
 be useful for volunteer coordinators, volunteer sign-up, tracking hours, and
 reporting.
 
-**This project is under active development.**
-
-VMS is live [here](http://ec2-52-53-177-18.us-west-1.compute.amazonaws.com/en-us/).
-
-If you are an Outreachy Applicant, start with reading [this](https://www.outreachy.org/communities/cfp/systers/).
+**This project is under active development (again).**
 
 Features
 --------
@@ -105,27 +103,6 @@ User and developer documentation for AnitaB.org Portal VMS project is generated
 using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 and available online for convenient reading at
 [VMS Website](http://vms.readthedocs.org/).
-
-
-Google Summer of Code (GSoC) Development
-----------------------------------------
-
-We are pleased to participate in the Google Summer of Code and are grateful
-for the contributions from our GSoC developers.
-
-* [Completed features during GSoC 2018](https://github.com/anitab-org/vms/blob/develop/docs/GSoC18.md)
-* Completed features during GSoC 2016
-       * [Development](https://github.com/anitab-org/vms/wiki/GSoC'16---Migrating-VMS-from-Function-based-views-to-Class-based-views)
-       * [Testing](https://github.com/anitab-org/vms/wiki/GSOC-16--Work-:-AUT-VMS-%5Bvatsala%5D)
-* [Completed features during GSoC 2015](https://docs.google.com/document/d/1bzKjyxWIXeqW45UjhsbM4wtlyNagiyueZTqxhtmD_A0/edit)
-* [Completed features during GSoC 2014](https://docs.google.com/document/d/1wIHGmqTbufyGW9nKYt3vV-zZhdJEPfdxaOjegQ9qKEk/edit)
-
-
-Communicate
------------
-
-The best way to connect with the maintainers is through Github comments. Communicate with our community on [AnitaB.org Open Source Zulip](https://anitab-org.zulipchat.com/). For queries regarding VMS Project join, [#vms](https://anitab-org.zulipchat.com/#narrow/stream/222539-vms) and newcomers can join, [#newcomers](https://anitab-org.zulipchat.com/#narrow/stream/223071-newcomers).
-
 
 
 License
