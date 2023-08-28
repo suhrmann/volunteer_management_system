@@ -53,10 +53,10 @@ production at the moment. It may be configured to do so in the future.
 1. Run `docker-compose build`. This pulls the Docker images required to run the
    project and installs the necessary dependencies.
 1. Run `docker run -e SECRET_KEY=foobarbaz vms_web`
-1. Run `docker-compose run web python vms/manage.py migrate`.
-1. Run `docker-compose run web python vms/manage.py cities_light` for downloading and importing data for django-cities-light.
+1. Run `docker-compose run web python manage.py migrate`.
+1. Run `docker-compose run web python manage.py cities_light` for downloading and importing data for django-cities-light.
 1. *Optional:*
-   Run `docker-compose run web python vms/manage.py createsuperuser`
+   Run `docker-compose run web python manage.py createsuperuser`
    if you wish to create a superuser to access the admin panel.
 1. Run `docker-compose up` to start the webserver for the Django AnitaB.org VMS
    project.
